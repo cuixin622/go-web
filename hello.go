@@ -6,7 +6,7 @@ func main() {
  r := gin.Default()
  r.GET("/ping", func(c *gin.Context) {
      c.JSON(200, gin.H{
-         "message": "hello cuixin222222222222222222 !!!",
+         "message": "hello 999999999cuixin !!!",
      })
  })
  r.Static("/index","/root/")
